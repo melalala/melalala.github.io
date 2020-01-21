@@ -79,6 +79,13 @@
   opacity: 1;
 }
 
+.sub-text {
+  font-family: 'lato';
+  font-size: 0.8vw;
+  font-weight: 300;
+  margin-top:-6.5%
+}
+
 #myBtn {
   display: none;
   position: fixed;
@@ -844,6 +851,7 @@ mark-may {
 .tick-avail {
     text-align: left;
     margin-bottom: -3%;
+	margin-top: 3%;
 }
 .about-image {
     background-image: url(images/about-hero-2.png);
@@ -1000,8 +1008,6 @@ h1 {
     width: 100%;
     height: auto;
     display: block;
-}
-.social-stuff {
 }
 .credits {
     text-decoration: none;
@@ -1264,8 +1270,6 @@ header {
     padding-bottom: 3%;
 }
 h1 {
-    font-size: 28px;
-    line-height: 34px;
     color: #FFFFFF;
     font-family: playfair-display;
     font-style: normal;
@@ -1274,8 +1278,9 @@ h1 {
     max-width: 200px;
     margin-bottom: 1%;
     font-size: 7vw;
-    line-height: 8vw;
+    line-height: 10vw;
     margin-top: 2%;
+	margin-left: 2%;
 }
 .hr-mobile   {
     visibility: hidden;
@@ -1312,6 +1317,7 @@ main .hero-content img.float-left {
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 5%;
 }
 .copyright {
     float: right;
@@ -1321,6 +1327,7 @@ main .hero-content img.float-left {
     max-width: 400px;
 }
 .text-white {
+	margin-left: 2%;
     color: #FFFFFF;
     font-family: lato;
     font-style: normal;
@@ -1354,6 +1361,7 @@ main .hero-content img.float-left {
     background-position: 90%;
     background-repeat: no-repeat;
     background-position: center 0%;
+	min-height: 300px;
 }
 h2 {
     font-family: playfair-display;
@@ -1477,7 +1485,7 @@ h4 {
     font-weight: 10;
     color: #FFFFFF;
     text-align: left;
-    font-size: 3vw;
+    font-size: 4vw;
     line-height: 5vw;
 }
 .whatsouplogo {
@@ -1566,13 +1574,14 @@ h4 {
 }
 .logo {
     height: auto;
-    width: 55%;
+    width: 70%;
 }
 .hero-image {
     background-repeat: no-repeat;
     background-image: url(images/hero-img.jpg);
     background-size: cover;
     background-position: center 0%;
+	min-height: 300px;
 }
 footer {
     width: 100%;
@@ -1709,6 +1718,7 @@ footer {
 }
 .burger-menu {
     display: block;
+	margin-top: 2%;
 }
 .overlap {
     margin-top: -250vw;
@@ -1727,5 +1737,67 @@ footer {
 }
 .col-center {
     display: inline-block;
+}
+.availability {
+    color: #FFFFD9;
+    font-family: open-sans-condensed;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3vw;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 2%;
+}
+.tick-avail {
+    text-align: left;
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-bottom: 3%;
+}
+.social-stuff {
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+.hero-image-may {
+    background-repeat: no-repeat;
+    background-image: url(images/hero%20maynooth.png);
+    background-size: cover;
+    background-position: center 0%;
+    margin-top: 0px;
+	min-height: 300px;
+
+}
+.img_wrap {
+  position: relative;
+}
+
+.img_description {
+  position: absolute;
+  top: 50%;
+  bottom: 6%;
+  left: 1%;
+  right: 1%;
+  background: rgba(0, 0, 0, 0.50);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  font-family: 'playfair-display';
+  font-size: 7vw;
+  font-weight: 300;
+  text-align: center;
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img_wrap:hover .img_description {
+  visibility: visible;
+  opacity: 1;
+}
+	
+.sub-text {
+  font-family: 'lato';
+  font-size: 10px;
+  font-weight: 300;
+  margin-top:-6.5%
 }
 }
