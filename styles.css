@@ -199,8 +199,6 @@ mark{
     background-position: center center;
     max-width: 1200px;
 }
-main {
-}
 footer {
     width: 100%;
     text-align: center;
@@ -631,12 +629,12 @@ h2 {
 }
 .social-stuff-a   {
     height: 51px;
-    margin-top: 0px;
-    margin-left: 1%;
+    margin-top: 2%;
     margin-bottom: 0px;
     border-radius: 50%;
     width: 51px;
-    margin-right: 1%;
+    margin-right: 3%;
+    margin-left: 0px;
 }
 main hr {
     width: 20vw;
@@ -661,8 +659,6 @@ h3 {
     font-weight: 400;
     font-size: x-large;
     width: 100%;
-}
-main .img-grid h3 {
 }
 h4  {
     color: #C5C0BD;
@@ -875,6 +871,10 @@ mark-may {
 .clear-padd-up {
     margin-top: -5%;
 }
+.typeform {
+    height: 800px;
+    width: 100%;
+}
 
 /*TABLET*/
 @media (min-width: 480px) and (max-width: 768px) {
@@ -1032,12 +1032,11 @@ footer {
     padding-top: 0px;
 }
 .social-stuff-a {
-    height: 41px;
-    margin-top: 0px;
-    margin-left: 1%;
+    height: 45px;
+    margin-top: 2%;
     margin-bottom: 0px;
-    width: 41px;
-    margin-right: 1%;
+    width: 45px;
+    margin-right: 3%;
 }
 .hero-content {
     height: 100%;
@@ -1222,6 +1221,10 @@ h4 {
 .burger-menu {
     display: block;
 }
+.typeform {
+    height: 600px;
+    width: 100%;
+}
 }
 
 /*MOBILE*/
@@ -1352,8 +1355,7 @@ main .hero-content img.float-left {
     background-color: #C0272D;
     margin-right: 5px;
     margin-left: 28px;
-    margin-bottom: 26px;
-	border-radius: 4px;
+    border-radius: 4px;
 }
 .hero-image-peek {
     background-image: url(images/peekaboo-hero.png);
@@ -1574,7 +1576,7 @@ h4 {
 }
 .logo {
     height: auto;
-    width: 70%;
+    width: 55%;
 }
 .hero-image {
     background-repeat: no-repeat;
@@ -1588,12 +1590,12 @@ footer {
     text-align: center;
 }
 .social-stuff-a {
-    height: 35px;
+    height: 40px;
     margin-top: 0px;
-    margin-bottom: 0px;
-    width: 35px;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-bottom: 3%;
+    width: 40px;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 .row-what {
     display: flex;
@@ -1800,4 +1802,10 @@ footer {
   font-weight: 300;
   margin-top:-6.5%
 }
+.typeform {
+    height: 400px;
+    width: 100%;
+}
+}
+.logo {
 }
