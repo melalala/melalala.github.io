@@ -16,7 +16,7 @@
   font-family: 'open-sans-condensed';
   font-style: normal;
   font-weight: 300;
-  src: url("fonts/DXI1ORHCpsQm3Vp6mXoaTRsxEYwM7FgeyaSgU71cLG0.woff") format('woff');
+  src: url("fonts/OpenSansCondensed-Light.ttf") format('truetype');
 }
 @font-face {
   font-family: 'open-sans-condensed';
@@ -28,7 +28,7 @@
   font-family: 'open-sans-condensed';
   font-style: normal;
   font-weight: 700;
-  src: url("fonts/k3k702ZOKiLJc3WVjuplzBsxEYwM7FgeyaSgU71cLG0.woff") format('woff');
+  src: url("fonts/OpenSansCondensed-Bold.ttf") format('truetype');
 }
 @font-face {
   font-family: 'open-sans-condensed';
