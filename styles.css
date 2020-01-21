@@ -352,7 +352,7 @@ body {
 .hero-image {
     background-repeat: no-repeat;
     background-image: url(images/hero-img.jpg);
-    background-position: center 0%;
+    background-position: center 50%;
     background-size: cover;
 }
 .hero-image-credit {
