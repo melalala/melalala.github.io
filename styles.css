@@ -869,7 +869,7 @@ mark-may {
 }
 
 /*TABLET*/
-@media (min-width:480px) and (max-width:768px){
+@media (min-width: 480px) and (max-width: 768px) {
 .dropdown {
   position: relative;
   display: inline-block;
@@ -1219,7 +1219,7 @@ h4 {
 }
 
 /*MOBILE*/
-@media (max-width:479px){
+@media (max-width: 479px) {
 .dropdown {
   position: relative;
   display: inline-block;
