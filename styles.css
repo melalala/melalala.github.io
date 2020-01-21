@@ -9,7 +9,7 @@
 @font-face {
     font-family: playfair-display;
     src: url("melalala/melalala/fonts/PlayfairDisplay-Regular.ttf") format('truetype');
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
 }
 @font-face {
