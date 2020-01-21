@@ -636,6 +636,15 @@ h2 {
     margin-right: 3%;
     margin-left: 0px;
 }
+.social-stuff-foot-a   {
+    height: 51px;
+    margin-top: 2%;
+    margin-bottom: 0px;
+    border-radius: 50%;
+    width: 51px;
+    margin-right: 3%;
+    margin-left: 3%;
+}
 main hr {
     width: 20vw;
     margin-left: 0px;
@@ -1225,6 +1234,15 @@ h4 {
     height: 600px;
     width: 100%;
 }
+.social-stuff-foot-a {
+    height: 47px;
+    margin-top: 2%;
+    margin-bottom: 0px;
+    border-radius: 50%;
+    width: 47px;
+    margin-right: 3%;
+    margin-left: 3%;
+}
 }
 
 /*MOBILE*/
@@ -1805,6 +1823,15 @@ footer {
 .typeform {
     height: 400px;
     width: 100%;
+}
+.social-stuff-foot-a {
+    height: 40px;
+    margin-top: 2%;
+    margin-bottom: 0px;
+    border-radius: 50%;
+    width: 40px;
+    margin-right: 3%;
+    margin-left: 3%;
 }
 }
 .logo {
