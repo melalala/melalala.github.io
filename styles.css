@@ -1665,6 +1665,7 @@ footer {
     background-repeat: no-repeat;
     background-position: center center;
     background-color: #0F8937;
+    max-height: 300px;
 }
 .video {
     width: 93%;
