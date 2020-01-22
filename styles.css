@@ -642,8 +642,8 @@ h2 {
     margin-bottom: 0px;
     border-radius: 50%;
     width: 51px;
-    margin-right: 3%;
-    margin-left: 3%;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 main hr {
     width: 20vw;
@@ -1265,6 +1265,7 @@ header {
     background-color: rgba(0,0,0,0.70);
     padding-top: 2%;
     padding-bottom: 1%;
+    align-items: center;
 }
 .responsive-img {
     width: 88vw;
@@ -1594,7 +1595,7 @@ h4 {
 }
 .logo {
     height: auto;
-    width: 55%;
+    width: 70%;
 }
 .hero-image {
     background-repeat: no-repeat;
@@ -1686,7 +1687,7 @@ footer {
     background-color: #EAEAEA;
     margin-bottom: 2px;
     font-size: 3vw;
-    min-width: 80px;
+    min-width: 60px;
 }
 .btn-green-click {
     color: #000000;
@@ -1738,7 +1739,7 @@ footer {
 }
 .burger-menu {
     display: block;
-	margin-top: 2%;
+    margin-top: 1%;
 }
 .overlap {
     margin-top: -250vw;
