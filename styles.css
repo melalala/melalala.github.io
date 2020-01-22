@@ -1392,8 +1392,8 @@ h2 {
     color: #C5C0BD;
     width: 300px;
     text-align: center;
-    margin-top: 20px;
     display: inline-block;
+    padding-top: 3%;
 }
 .text-grey {
     color: #383026;
