@@ -181,7 +181,8 @@ header {
     margin-top: 25px;
 }
 mark{
-    background-color: #C3D5C2;
+    /*background-color: #C3D5C2;*/
+	background: linear-gradient(to top, #C3D5C2 30%, transparent 50%);
 }
 .video {
     width: 100%;
@@ -774,10 +775,12 @@ h5  {
     margin-bottom: 60px;
 }
 mark-peek {
-    background-color: #FBE4C4;
+    /*background-color: #FBE4C4;*/
+	background: linear-gradient(to top, #FBE4C4 30%, transparent 50%);
 }
 mark-may {
-    background-color: #DCCDD8;
+    /*background-color: #DCCDD8;*/
+	background: linear-gradient(to top, #DCCDD8 30%, transparent 50%);
 }
 .visible-mobile {
     display: none;
